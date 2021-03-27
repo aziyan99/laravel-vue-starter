@@ -1,0 +1,13 @@
+- ## Getting Started
+    - [Overview](/{{route}}/{{version}}/overview)
+    - [Instalasi](/{{route}}/{{version}}/installation)
+    - [Depedencies](/{{route}}/{{version}}/depedencies)
+    
+- ## Menu
+    - [Dashboard](/{{route}}/{{version}}/rolepermission)
+    - [Role](/{{route}}/{{version}}/rolepermission)
+    - [Permission](/{{route}}/{{version}}/rolepermission)
+    - [Assign Permission](/{{route}}/{{version}}/rolepermission)
+    - [Pengguna](/{{route}}/{{version}}/rolepermission)
+    - [Pengaturan](/{{route}}/{{version}}/rolepermission)
+    - [Profile](/{{route}}/{{version}}/rolepermission)

@@ -4,10 +4,17 @@
     - [Depedencies](/{{route}}/{{version}}/depedencies)
     
 - ## Menu
-    - [Dashboard](/{{route}}/{{version}}/rolepermission)
-    - [Role](/{{route}}/{{version}}/rolepermission)
-    - [Permission](/{{route}}/{{version}}/rolepermission)
-    - [Assign Permission](/{{route}}/{{version}}/rolepermission)
-    - [Pengguna](/{{route}}/{{version}}/rolepermission)
-    - [Pengaturan](/{{route}}/{{version}}/rolepermission)
-    - [Profile](/{{route}}/{{version}}/rolepermission)
+    - [Dashboard](/{{route}}/{{version}}/dashboard)
+    - [Role](/{{route}}/{{version}}/role)
+    - [Permission](/{{route}}/{{version}}/permission)
+    - [Assign Permission](/{{route}}/{{version}}/assignpermission)
+    - [Pengguna](/{{route}}/{{version}}/user)
+    - [Pengaturan](/{{route}}/{{version}}/setting)
+    - [Profile](/{{route}}/{{version}}/profile)
+    
+- ## Customization
+    - [Overview](/{{route}}/{{version}}/customizationoverview)
+    - [Guide](/{{route}}/{{version}}/customizationguide)
+    
+- ## Reach me out!
+    - [Contact](/{{route}}/{{version}}/contact)

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api\V1\Backend;
 use App\Http\Controllers\Controller;
 use App\Models\Setting;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
 use Image;
 
@@ -27,6 +28,7 @@ class SettingController extends Controller
             'youtube' => 'required'
         ]);
         $setting = Setting::first();
+
         $setting->update([
             'web_name' => $request->web_name,
             'address' => $request->address,
@@ -44,6 +46,13 @@ class SettingController extends Controller
         $request->validate([
             'image' => 'required|image'
         ]);
+
+        // create folder
+        $path = storage_path('app/public/logo');
+        if (!File::isDirectory($path)) {
+            File::makeDirectory($path, 0777, true, true);
+        }
+
         $image = $request->file('image');
         $input['imageName'] = time() . '.' . $image->extension();
         $image = Image::make($image->getRealPath());

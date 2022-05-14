@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Spatie\Permission\Models\Role;
 use Laravolt\Avatar\Avatar;
-use File;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 
@@ -71,6 +71,14 @@ class UserController extends Controller
             'address' => 'required',
             'role' => 'required'
         ]);
+
+
+        // create folder
+        $path = storage_path('app/public/image_profiles');
+        if (!File::isDirectory($path)) {
+            File::makeDirectory($path, 0777, true, true);
+        }
+
 
         $avatar = new Avatar();
         $imageName = time() . ".png";

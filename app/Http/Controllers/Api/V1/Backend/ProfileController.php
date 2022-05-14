@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 use Image;
 
 class ProfileController extends Controller
@@ -62,6 +63,13 @@ class ProfileController extends Controller
         $request->validate([
             'image' => 'required|image'
         ]);
+
+        // create folder
+        $path = storage_path('app/public/image_profiles');
+        if (!File::isDirectory($path)) {
+            File::makeDirectory($path, 0777, true, true);
+        }
+
         $image = $request->file('image');
         $input['imageName'] = time() . '.' . $image->extension();
         $image = Image::make($image->getRealPath());

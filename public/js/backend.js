@@ -1943,6 +1943,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -2132,10 +2133,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
-//
-//
 //
 //
 //
@@ -2627,13 +2624,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -2790,10 +2780,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
-//
-//
 //
 //
 //
@@ -3237,8 +3223,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -3369,11 +3353,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
-//
-//
-//
 //
 //
 //
@@ -4273,20 +4252,20 @@ window.axios.defaults.withCredentials = true;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
-/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vform */ "./node_modules/vform/dist/vform.common.js");
-/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vform__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vue_toasted__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-toasted */ "./node_modules/vue-toasted/dist/vue-toasted.min.js");
-/* harmony import */ var vue_toasted__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_toasted__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var vue_progressbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-progressbar */ "./node_modules/vue-progressbar/dist/vue-progressbar.js");
-/* harmony import */ var vue_progressbar__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_progressbar__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var vue_content_loading__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-content-loading */ "./node_modules/vue-content-loading/dist/vuecontentloading.js");
-/* harmony import */ var vue_content_loading__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vue_content_loading__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
-/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var vue_select_dist_vue_select_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vue-select/dist/vue-select.css */ "./node_modules/vue-select/dist/vue-select.css");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
+/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vform */ "./node_modules/vform/dist/vform.common.js");
+/* harmony import */ var vform__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vform__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue_toasted__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-toasted */ "./node_modules/vue-toasted/dist/vue-toasted.min.js");
+/* harmony import */ var vue_toasted__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_toasted__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vue_progressbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-progressbar */ "./node_modules/vue-progressbar/dist/vue-progressbar.js");
+/* harmony import */ var vue_progressbar__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_progressbar__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var vue_content_loading__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-content-loading */ "./node_modules/vue-content-loading/dist/vuecontentloading.js");
+/* harmony import */ var vue_content_loading__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_content_loading__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-select */ "./node_modules/vue-select/dist/vue-select.js");
+/* harmony import */ var vue_select__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(vue_select__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var vue_select_dist_vue_select_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! vue-select/dist/vue-select.css */ "./node_modules/vue-select/dist/vue-select.css");
 var token = document.head.querySelector('meta[name="csrf-token"]');
 
 if (token) {
@@ -4303,16 +4282,16 @@ if (token) {
 
 
 
-window.Fire = new vue__WEBPACK_IMPORTED_MODULE_0__.default();
-window.Form = vform__WEBPACK_IMPORTED_MODULE_1__.Form;
+window.Fire = new vue__WEBPACK_IMPORTED_MODULE_7__.default();
+window.Form = vform__WEBPACK_IMPORTED_MODULE_0__.Form;
 window.RESTURIV1 = '/api/v1'; //window.ASSETURI = '/storage/';
 
 var toastedOptions = {
   position: "top-center",
   duration: 3000
 };
-vue__WEBPACK_IMPORTED_MODULE_0__.default.use((vue_toasted__WEBPACK_IMPORTED_MODULE_2___default()), toastedOptions);
-vue__WEBPACK_IMPORTED_MODULE_0__.default.use((vue_progressbar__WEBPACK_IMPORTED_MODULE_4___default()), {
+vue__WEBPACK_IMPORTED_MODULE_7__.default.use((vue_toasted__WEBPACK_IMPORTED_MODULE_1___default()), toastedOptions);
+vue__WEBPACK_IMPORTED_MODULE_7__.default.use((vue_progressbar__WEBPACK_IMPORTED_MODULE_3___default()), {
   color: '#3D53C6',
   failedColor: '#874b4b',
   thickness: '5px',
@@ -4325,17 +4304,17 @@ vue__WEBPACK_IMPORTED_MODULE_0__.default.use((vue_progressbar__WEBPACK_IMPORTED_
   location: 'top',
   inverse: false
 });
-vue__WEBPACK_IMPORTED_MODULE_0__.default.filter('formatDate', function (createdAt) {
-  moment__WEBPACK_IMPORTED_MODULE_3___default().locale('id');
-  return moment__WEBPACK_IMPORTED_MODULE_3___default()(createdAt).format("dddd, DD-MMM-YYYY, (HH:mm)");
+vue__WEBPACK_IMPORTED_MODULE_7__.default.filter('formatDate', function (createdAt) {
+  moment__WEBPACK_IMPORTED_MODULE_2___default().locale('id');
+  return moment__WEBPACK_IMPORTED_MODULE_2___default()(createdAt).format("dddd, DD-MMM-YYYY, (HH:mm)");
 });
-vue__WEBPACK_IMPORTED_MODULE_0__.default.filter('implode', function () {});
-vue__WEBPACK_IMPORTED_MODULE_0__.default.component('pagination', __webpack_require__(/*! laravel-vue-pagination */ "./node_modules/laravel-vue-pagination/dist/laravel-vue-pagination.common.js"));
-vue__WEBPACK_IMPORTED_MODULE_0__.default.component(vform__WEBPACK_IMPORTED_MODULE_1__.HasError.name, vform__WEBPACK_IMPORTED_MODULE_1__.HasError);
-vue__WEBPACK_IMPORTED_MODULE_0__.default.component(vform__WEBPACK_IMPORTED_MODULE_1__.AlertError.name, vform__WEBPACK_IMPORTED_MODULE_1__.AlertError);
-vue__WEBPACK_IMPORTED_MODULE_0__.default.component('table-loading', vue_content_loading__WEBPACK_IMPORTED_MODULE_5__.VclTable);
-vue__WEBPACK_IMPORTED_MODULE_0__.default.component('facebook-loading', vue_content_loading__WEBPACK_IMPORTED_MODULE_5__.VclFacebook);
-vue__WEBPACK_IMPORTED_MODULE_0__.default.component('v-select', (vue_select__WEBPACK_IMPORTED_MODULE_6___default()));
+vue__WEBPACK_IMPORTED_MODULE_7__.default.filter('implode', function () {});
+vue__WEBPACK_IMPORTED_MODULE_7__.default.component('pagination', __webpack_require__(/*! laravel-vue-pagination */ "./node_modules/laravel-vue-pagination/dist/laravel-vue-pagination.common.js"));
+vue__WEBPACK_IMPORTED_MODULE_7__.default.component(vform__WEBPACK_IMPORTED_MODULE_0__.HasError.name, vform__WEBPACK_IMPORTED_MODULE_0__.HasError);
+vue__WEBPACK_IMPORTED_MODULE_7__.default.component(vform__WEBPACK_IMPORTED_MODULE_0__.AlertError.name, vform__WEBPACK_IMPORTED_MODULE_0__.AlertError);
+vue__WEBPACK_IMPORTED_MODULE_7__.default.component('table-loading', vue_content_loading__WEBPACK_IMPORTED_MODULE_4__.VclTable);
+vue__WEBPACK_IMPORTED_MODULE_7__.default.component('facebook-loading', vue_content_loading__WEBPACK_IMPORTED_MODULE_4__.VclFacebook);
+vue__WEBPACK_IMPORTED_MODULE_7__.default.component('v-select', (vue_select__WEBPACK_IMPORTED_MODULE_5___default()));
 
 /***/ }),
 
@@ -59799,15 +59778,7 @@ var render = function() {
                               staticClass: "btn btn-primary",
                               on: { click: _vm.assignPermission }
                             },
-                            [
-                              _c("i", {
-                                staticClass:
-                                  "c-icon cil-lock-locked mr-1 align-middle"
-                              }),
-                              _vm._v(
-                                "\n                                    Update permission\n                                "
-                              )
-                            ]
+                            [_c("b", [_vm._v("Update permission")])]
                           )
                         ]
                       )
@@ -59990,7 +59961,7 @@ var render = function() {
                                       _c(
                                         "button",
                                         {
-                                          staticClass: "btn btn-danger btn-sm",
+                                          staticClass: "btn btn-default btn-sm",
                                           on: {
                                             click: function($event) {
                                               return _vm.revokePermission(
@@ -60000,10 +59971,31 @@ var render = function() {
                                           }
                                         },
                                         [
-                                          _c("i", {
-                                            staticClass:
-                                              "c-icon cil-trash align-middle"
-                                          })
+                                          _c(
+                                            "svg",
+                                            {
+                                              attrs: {
+                                                xmlns:
+                                                  "http://www.w3.org/2000/svg",
+                                                width: "24",
+                                                height: "24",
+                                                fill: "none",
+                                                viewBox: "0 0 24 24",
+                                                stroke: "currentColor",
+                                                "stroke-width": "2"
+                                              }
+                                            },
+                                            [
+                                              _c("path", {
+                                                attrs: {
+                                                  "stroke-linecap": "round",
+                                                  "stroke-linejoin": "round",
+                                                  d:
+                                                    "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                                }
+                                              })
+                                            ]
+                                          )
                                         ]
                                       )
                                     ])
@@ -60166,12 +60158,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.showBulkDestroyPermissionModal }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon cil-trash align-middle mr-2"
-                    }),
-                    _vm._v("Hapus yang dipilih\n                ")
-                  ]
+                  [_c("b", [_vm._v("Hapus yang dipilih")])]
                 )
               : _vm._e(),
             _vm._v(" "),
@@ -60182,12 +60169,7 @@ var render = function() {
                     staticClass: "btn btn-danger",
                     attrs: { type: "button", disabled: "" }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon cil-trash align-middle mr-2"
-                    }),
-                    _vm._v("Hapus yang dipilih\n                ")
-                  ]
+                  [_c("b", [_vm._v("Hapus yang dipilih")])]
                 )
               : _vm._e(),
             _vm._v(" "),
@@ -60198,14 +60180,7 @@ var render = function() {
                     staticClass: "btn btn-primary",
                     on: { click: _vm.showCreatePermissionModal }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon mr-2 cil-plus align-middle"
-                    }),
-                    _vm._v(
-                      "\n                    Tambah Permission\n                "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Tambah Permission")])]
                 )
               : _vm._e()
           ]),
@@ -60440,7 +60415,7 @@ var render = function() {
                             ? _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-warning btn-sm",
+                                  staticClass: "btn btn-default btn-sm",
                                   on: {
                                     click: function($event) {
                                       return _vm.showEditPermissionModal(
@@ -60450,12 +60425,29 @@ var render = function() {
                                   }
                                 },
                                 [
-                                  _c("i", {
-                                    staticClass:
-                                      "c-icon cil-pencil mr-1 align-middle"
-                                  }),
-                                  _vm._v(
-                                    "\n                                    edit\n                                "
+                                  _c(
+                                    "svg",
+                                    {
+                                      attrs: {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        width: "24",
+                                        height: "24",
+                                        fill: "none",
+                                        viewBox: "0 0 24 24",
+                                        stroke: "currentColor",
+                                        "stroke-width": "2"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        attrs: {
+                                          "stroke-linecap": "round",
+                                          "stroke-linejoin": "round",
+                                          d:
+                                            "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                        }
+                                      })
+                                    ]
                                   )
                                 ]
                               )
@@ -60465,7 +60457,7 @@ var render = function() {
                             ? _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-danger btn-sm",
+                                  staticClass: "btn btn-default btn-sm",
                                   on: {
                                     click: function($event) {
                                       return _vm.showDestroyPermissionModal(
@@ -60475,12 +60467,29 @@ var render = function() {
                                   }
                                 },
                                 [
-                                  _c("i", {
-                                    staticClass:
-                                      "c-icon cil-trash mr-1 align-middle"
-                                  }),
-                                  _vm._v(
-                                    "\n                                    hapus\n                                "
+                                  _c(
+                                    "svg",
+                                    {
+                                      attrs: {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        width: "24",
+                                        height: "24",
+                                        fill: "none",
+                                        viewBox: "0 0 24 24",
+                                        stroke: "currentColor",
+                                        "stroke-width": "2"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        attrs: {
+                                          "stroke-linecap": "round",
+                                          "stroke-linejoin": "round",
+                                          d:
+                                            "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                        }
+                                      })
+                                    ]
                                   )
                                 ]
                               )
@@ -60737,14 +60746,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.destroyPermission }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "align-middle c-icon cil-trash mr-1"
-                    }),
-                    _vm._v(
-                      "\n                            Hapus\n                        "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Hapus")])]
                 ),
                 _vm._v(" "),
                 _c(
@@ -60762,14 +60764,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.bulkDestroy }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "align-middle c-icon cil-trash mr-1"
-                    }),
-                    _vm._v(
-                      "\n                            Hapus\n                        "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Hapus")])]
                 )
               ])
             ])
@@ -60817,26 +60812,16 @@ var staticRenderFns = [
       _c(
         "button",
         {
-          staticClass: "btn btn-secondary",
+          staticClass: "btn btn-default",
           attrs: { type: "button", "data-dismiss": "modal" }
         },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-          _vm._v(
-            "\n                                Batal\n                            "
-          )
-        ]
+        [_c("b", [_vm._v("Batal")])]
       ),
       _vm._v(" "),
       _c(
         "button",
         { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-save mr-1" }),
-          _vm._v(
-            "\n                                Simpan\n                            "
-          )
-        ]
+        [_c("b", [_vm._v("Simpan")])]
       )
     ])
   },
@@ -60876,13 +60861,10 @@ var staticRenderFns = [
     return _c(
       "button",
       {
-        staticClass: "btn btn-secondary",
+        staticClass: "btn btn-default",
         attrs: { type: "button", "data-dismiss": "modal" }
       },
-      [
-        _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-        _vm._v("\n                            Batal\n                        ")
-      ]
+      [_c("b", [_vm._v("Batal")])]
     )
   }
 ]
@@ -60967,14 +60949,7 @@ var render = function() {
                     staticClass: "btn btn-primary",
                     on: { click: _vm.showUpdateImageModal }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon align-middle cil-image mr-1"
-                    }),
-                    _vm._v(
-                      "\n                        Ubah gambar\n                    "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Ubah gambar")])]
                 ),
                 _vm._v(" "),
                 _c(
@@ -60983,14 +60958,7 @@ var render = function() {
                     staticClass: "btn btn-danger",
                     on: { click: _vm.showUpdatePasswordModal }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon align-middle cil-lock-locked mr-1"
-                    }),
-                    _vm._v(
-                      "\n                        Ubah kata sandi\n                    "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Ubah kata sandi")])]
                 )
               ])
             ])
@@ -61288,14 +61256,7 @@ var render = function() {
                         staticClass: "btn btn-primary",
                         attrs: { disabled: _vm.progressLoading, type: "submit" }
                       },
-                      [
-                        _c("i", {
-                          staticClass: "align-middle c-icon cil-image mr-1"
-                        }),
-                        _vm._v(
-                          "\n                            Ubah\n                        "
-                        )
-                      ]
+                      [_c("b", [_vm._v("Ubah")])]
                     )
                   ])
                 ]
@@ -61446,12 +61407,7 @@ var staticRenderFns = [
       _c(
         "button",
         { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-        [
-          _c("i", { staticClass: "c-icon cil-save align-middle mr-1" }),
-          _vm._v(
-            "\n                                Ubah\n                            "
-          )
-        ]
+        [_c("b", [_vm._v("Ubah")])]
       )
     ])
   },
@@ -61485,13 +61441,10 @@ var staticRenderFns = [
     return _c(
       "button",
       {
-        staticClass: "btn btn-secondary",
+        staticClass: "btn btn-default",
         attrs: { type: "button", "data-dismiss": "modal" }
       },
-      [
-        _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-        _vm._v("\n                            Batal\n                        ")
-      ]
+      [_c("b", [_vm._v("Batal")])]
     )
   },
   function() {
@@ -61525,24 +61478,16 @@ var staticRenderFns = [
       _c(
         "button",
         {
-          staticClass: "btn btn-secondary",
+          staticClass: "btn btn-default",
           attrs: { type: "button", "data-dismiss": "modal" }
         },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-          _vm._v(
-            "\n                            Batal\n                        "
-          )
-        ]
+        [_c("b", [_vm._v("Batal")])]
       ),
       _vm._v(" "),
       _c(
         "button",
         { staticClass: "btn btn-danger", attrs: { type: "submit" } },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-lock-locked mr-1" }),
-          _vm._v("\n                            Ubah\n                        ")
-        ]
+        [_c("b", [_vm._v("Ubah")])]
       )
     ])
   }
@@ -61586,12 +61531,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.showBulkDestroyRoleForm }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon cil-trash align-middle mr-2"
-                    }),
-                    _vm._v("Hapus yang dipilih\n                ")
-                  ]
+                  [_c("b", [_vm._v("Hapus yang dipilih")])]
                 )
               : _vm._e(),
             _vm._v(" "),
@@ -61602,12 +61542,7 @@ var render = function() {
                     staticClass: "btn btn-danger",
                     attrs: { type: "button", disabled: "" }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon cil-trash align-middle mr-2"
-                    }),
-                    _vm._v("Hapus yang dipilih\n                ")
-                  ]
+                  [_c("b", [_vm._v("Hapus yang dipilih")])]
                 )
               : _vm._e(),
             _vm._v(" "),
@@ -61618,14 +61553,7 @@ var render = function() {
                     staticClass: "btn btn-primary",
                     on: { click: _vm.showCreateRoleFrom }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon mr-2 cil-plus align-middle"
-                    }),
-                    _vm._v(
-                      "\n                    Tambah Role\n                "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Tambah Role")])]
                 )
               : _vm._e()
           ]),
@@ -61848,7 +61776,7 @@ var render = function() {
                             ? _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-warning btn-sm",
+                                  staticClass: "btn btn-default btn-sm",
                                   on: {
                                     click: function($event) {
                                       return _vm.showEditRoleForm(role)
@@ -61856,12 +61784,29 @@ var render = function() {
                                   }
                                 },
                                 [
-                                  _c("i", {
-                                    staticClass:
-                                      "c-icon cil-pencil mr-1 align-middle"
-                                  }),
-                                  _vm._v(
-                                    "\n                                    edit\n                                "
+                                  _c(
+                                    "svg",
+                                    {
+                                      attrs: {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        width: "24",
+                                        height: "24",
+                                        fill: "none",
+                                        viewBox: "0 0 24 24",
+                                        stroke: "currentColor",
+                                        "stroke-width": "2"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        attrs: {
+                                          "stroke-linecap": "round",
+                                          "stroke-linejoin": "round",
+                                          d:
+                                            "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                        }
+                                      })
+                                    ]
                                   )
                                 ]
                               )
@@ -61871,7 +61816,7 @@ var render = function() {
                             ? _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-danger btn-sm",
+                                  staticClass: "btn btn-default btn-sm",
                                   on: {
                                     click: function($event) {
                                       return _vm.showDestroyRoleForm(role)
@@ -61879,12 +61824,29 @@ var render = function() {
                                   }
                                 },
                                 [
-                                  _c("i", {
-                                    staticClass:
-                                      "c-icon cil-trash mr-1 align-middle"
-                                  }),
-                                  _vm._v(
-                                    "\n                                    hapus\n                                "
+                                  _c(
+                                    "svg",
+                                    {
+                                      attrs: {
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        width: "24",
+                                        height: "24",
+                                        fill: "none",
+                                        viewBox: "0 0 24 24",
+                                        stroke: "currentColor",
+                                        "stroke-width": "2"
+                                      }
+                                    },
+                                    [
+                                      _c("path", {
+                                        attrs: {
+                                          "stroke-linecap": "round",
+                                          "stroke-linejoin": "round",
+                                          d:
+                                            "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                        }
+                                      })
+                                    ]
                                   )
                                 ]
                               )
@@ -62145,14 +62107,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.destroyRole }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "align-middle c-icon cil-trash mr-1"
-                    }),
-                    _vm._v(
-                      "\n                            Hapus\n                        "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Hapus")])]
                 ),
                 _vm._v(" "),
                 _c(
@@ -62170,14 +62125,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.bulkDestroy }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "align-middle c-icon cil-trash mr-1"
-                    }),
-                    _vm._v(
-                      "\n                            Hapus\n                        "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Hapus")])]
                 )
               ])
             ])
@@ -62223,26 +62171,16 @@ var staticRenderFns = [
       _c(
         "button",
         {
-          staticClass: "btn btn-secondary",
+          staticClass: "btn btn-default",
           attrs: { type: "button", "data-dismiss": "modal" }
         },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-          _vm._v(
-            "\n                                Batal\n                            "
-          )
-        ]
+        [_c("b", [_vm._v("Batal")])]
       ),
       _vm._v(" "),
       _c(
         "button",
         { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-save mr-1" }),
-          _vm._v(
-            "\n                                Simpan\n                            "
-          )
-        ]
+        [_c("b", [_vm._v("Simpan")])]
       )
     ])
   },
@@ -62282,13 +62220,10 @@ var staticRenderFns = [
     return _c(
       "button",
       {
-        staticClass: "btn btn-secondary",
+        staticClass: "btn btn-default",
         attrs: { type: "button", "data-dismiss": "modal" }
       },
-      [
-        _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-        _vm._v("\n                            Batal\n                        ")
-      ]
+      [_c("b", [_vm._v("Batal")])]
     )
   }
 ]
@@ -62649,14 +62584,7 @@ var render = function() {
                               staticClass: "btn btn-primary",
                               attrs: { type: "submit" }
                             },
-                            [
-                              _c("i", {
-                                staticClass: "align-middle c-icon cil-save mr-1"
-                              }),
-                              _vm._v(
-                                "\n                                Ubah\n                            "
-                              )
-                            ]
+                            [_c("b", [_vm._v("Ubah")])]
                           )
                         : _vm._e()
                     ])
@@ -62717,14 +62645,7 @@ var render = function() {
                         staticClass: "btn btn-primary mt-2",
                         attrs: { disabled: _vm.progressLoading, type: "submit" }
                       },
-                      [
-                        _c("i", {
-                          staticClass: "align-middle c-icon cil-image mr-1"
-                        }),
-                        _vm._v(
-                          "\n                            Ubah\n                        "
-                        )
-                      ]
+                      [_c("b", [_vm._v("Ubah")])]
                     )
                   ]
                 )
@@ -62828,12 +62749,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.showBulkDestroyUserModal }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon cil-trash align-middle mr-2"
-                    }),
-                    _vm._v("Hapus yang dipilih\n                ")
-                  ]
+                  [_c("b", [_vm._v("Hapus yang dipilih")])]
                 )
               : _vm._e(),
             _vm._v(" "),
@@ -62852,12 +62768,7 @@ var render = function() {
                     staticClass: "btn btn-danger",
                     attrs: { type: "button", disabled: "" }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon cil-trash align-middle mr-2"
-                    }),
-                    _vm._v("Hapus yang dipilih\n                ")
-                  ]
+                  [_c("b", [_vm._v("Hapus yang dipilih")])]
                 )
               : _vm._e(),
             _vm._v(" "),
@@ -62868,14 +62779,7 @@ var render = function() {
                     staticClass: "btn btn-primary",
                     on: { click: _vm.showCreateUserModal }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "c-icon mr-2 cil-plus align-middle"
-                    }),
-                    _vm._v(
-                      "\n                    Tambah Pengguna\n                "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Tambah Pengguna")])]
                 )
               : _vm._e()
           ]),
@@ -63125,7 +63029,7 @@ var render = function() {
                                 ? _c(
                                     "button",
                                     {
-                                      staticClass: "btn btn-warning btn-sm",
+                                      staticClass: "btn btn-default btn-sm",
                                       on: {
                                         click: function($event) {
                                           return _vm.showEditUserModal(user)
@@ -63133,12 +63037,29 @@ var render = function() {
                                       }
                                     },
                                     [
-                                      _c("i", {
-                                        staticClass:
-                                          "c-icon cil-pencil mr-1 align-middle"
-                                      }),
-                                      _vm._v(
-                                        "\n                                    edit\n                                "
+                                      _c(
+                                        "svg",
+                                        {
+                                          attrs: {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            width: "24",
+                                            height: "24",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            stroke: "currentColor",
+                                            "stroke-width": "2"
+                                          }
+                                        },
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              "stroke-linecap": "round",
+                                              "stroke-linejoin": "round",
+                                              d:
+                                                "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                            }
+                                          })
+                                        ]
                                       )
                                     ]
                                   )
@@ -63148,7 +63069,7 @@ var render = function() {
                                 ? _c(
                                     "button",
                                     {
-                                      staticClass: "btn btn-info btn-sm",
+                                      staticClass: "btn btn-default btn-sm",
                                       on: {
                                         click: function($event) {
                                           return _vm.showDetailUserModal(user)
@@ -63156,12 +63077,38 @@ var render = function() {
                                       }
                                     },
                                     [
-                                      _c("i", {
-                                        staticClass:
-                                          "c-icon cil-file mr-1 align-middle"
-                                      }),
-                                      _vm._v(
-                                        "\n                                    lihat\n                                "
+                                      _c(
+                                        "svg",
+                                        {
+                                          attrs: {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            width: "24",
+                                            height: "24",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            stroke: "currentColor",
+                                            "stroke-width": "2"
+                                          }
+                                        },
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              "stroke-linecap": "round",
+                                              "stroke-linejoin": "round",
+                                              d:
+                                                "M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                                            }
+                                          }),
+                                          _vm._v(" "),
+                                          _c("path", {
+                                            attrs: {
+                                              "stroke-linecap": "round",
+                                              "stroke-linejoin": "round",
+                                              d:
+                                                "M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"
+                                            }
+                                          })
+                                        ]
                                       )
                                     ]
                                   )
@@ -63171,7 +63118,7 @@ var render = function() {
                                 ? _c(
                                     "button",
                                     {
-                                      staticClass: "btn btn-danger btn-sm",
+                                      staticClass: "btn btn-default btn-sm",
                                       on: {
                                         click: function($event) {
                                           return _vm.showDestroyUserModal(user)
@@ -63179,12 +63126,29 @@ var render = function() {
                                       }
                                     },
                                     [
-                                      _c("i", {
-                                        staticClass:
-                                          "c-icon cil-trash mr-1 align-middle"
-                                      }),
-                                      _vm._v(
-                                        "\n                                    hapus\n                                "
+                                      _c(
+                                        "svg",
+                                        {
+                                          attrs: {
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            width: "24",
+                                            height: "24",
+                                            fill: "none",
+                                            viewBox: "0 0 24 24",
+                                            stroke: "currentColor",
+                                            "stroke-width": "2"
+                                          }
+                                        },
+                                        [
+                                          _c("path", {
+                                            attrs: {
+                                              "stroke-linecap": "round",
+                                              "stroke-linejoin": "round",
+                                              d:
+                                                "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                            }
+                                          })
+                                        ]
                                       )
                                     ]
                                   )
@@ -63575,14 +63539,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.destroyUser }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "align-middle c-icon cil-trash mr-1"
-                    }),
-                    _vm._v(
-                      "\n                            Hapus\n                        "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Hapus")])]
                 ),
                 _vm._v(" "),
                 _c(
@@ -63600,14 +63557,7 @@ var render = function() {
                     attrs: { type: "button" },
                     on: { click: _vm.bulkDestroy }
                   },
-                  [
-                    _c("i", {
-                      staticClass: "align-middle c-icon cil-trash mr-1"
-                    }),
-                    _vm._v(
-                      "\n                            Hapus\n                        "
-                    )
-                  ]
+                  [_c("b", [_vm._v("Hapus")])]
                 )
               ])
             ])
@@ -63719,15 +63669,7 @@ var render = function() {
                               }
                             }
                           },
-                          [
-                            _c("i", {
-                              staticClass:
-                                "c-icon cil-lock-locked mr-1 align-middle"
-                            }),
-                            _vm._v(
-                              "\n                                    Reset kata sandi\n                                "
-                            )
-                          ]
+                          [_c("b", [_vm._v("Reset kata sandi")])]
                         )
                       : _vm._e()
                   ])
@@ -63798,26 +63740,16 @@ var staticRenderFns = [
       _c(
         "button",
         {
-          staticClass: "btn btn-secondary",
+          staticClass: "btn btn-default",
           attrs: { type: "button", "data-dismiss": "modal" }
         },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-          _vm._v(
-            "\n                                Batal\n                            "
-          )
-        ]
+        [_c("b", [_vm._v("Batal")])]
       ),
       _vm._v(" "),
       _c(
         "button",
         { staticClass: "btn btn-primary", attrs: { type: "submit" } },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-save mr-1" }),
-          _vm._v(
-            "\n                                Simpan\n                            "
-          )
-        ]
+        [_c("b", [_vm._v("Simpan")])]
       )
     ])
   },
@@ -63857,13 +63789,10 @@ var staticRenderFns = [
     return _c(
       "button",
       {
-        staticClass: "btn btn-secondary",
+        staticClass: "btn btn-default",
         attrs: { type: "button", "data-dismiss": "modal" }
       },
-      [
-        _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-        _vm._v("\n                            Batal\n                        ")
-      ]
+      [_c("b", [_vm._v("Batal")])]
     )
   },
   function() {
@@ -63895,15 +63824,10 @@ var staticRenderFns = [
       _c(
         "button",
         {
-          staticClass: "btn btn-secondary",
+          staticClass: "btn btn-default",
           attrs: { type: "button", "data-dismiss": "modal" }
         },
-        [
-          _c("i", { staticClass: "align-middle c-icon cil-x mr-1" }),
-          _vm._v(
-            "\n                            Tutup\n                        "
-          )
-        ]
+        [_c("b", [_vm._v("Tutup")])]
       )
     ])
   }
@@ -63992,7 +63916,7 @@ var render = function() {
                     _c("i", {
                       staticClass: "c-sidebar-nav-icon c-icon cil-speedometer"
                     }),
-                    _vm._v("\n                    Dashbor\n                ")
+                    _vm._v("\n                    Dashboard\n                ")
                   ]
                 )
               ],
@@ -64224,7 +64148,7 @@ var render = function() {
                     staticClass: "c-header-nav-link",
                     attrs: { to: { name: "dashboard" } }
                   },
-                  [_vm._v("Dashbor")]
+                  [_vm._v("Dashboard")]
                 )
               ],
               1

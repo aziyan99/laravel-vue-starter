@@ -54,8 +54,7 @@
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary" v-if="$can('pengaturan.ubah')">
-                                    <i class="align-middle c-icon cil-save mr-1"></i>
-                                    Ubah
+                                    <b>Ubah</b>
                                 </button>
                             </div>
                         </form>
@@ -82,8 +81,7 @@
                                      aria-valuemax="100"></div>
                             </div>
                             <button :disabled="progressLoading" type="submit" class="btn btn-primary mt-2">
-                                <i class="align-middle c-icon cil-image mr-1"></i>
-                                Ubah
+                                <b>Ubah</b>
                             </button>
                         </form>
                     </div>

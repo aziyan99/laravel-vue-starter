@@ -12,7 +12,7 @@
             <i class="c-icon-lg c-icon cil-menu"></i>
         </button>
         <ul class="c-header-nav d-md-down-none">
-            <li class="c-header-nav-item px-3" v-if="$can('dashbor.lihat')"><router-link class="c-header-nav-link" :to="{name: 'dashboard'}">Dashbor</router-link></li>
+            <li class="c-header-nav-item px-3" v-if="$can('dashbor.lihat')"><router-link class="c-header-nav-link" :to="{name: 'dashboard'}">Dashboard</router-link></li>
             <li class="c-header-nav-item px-3" v-if="$can('pengguna.lihat')"><router-link class="c-header-nav-link" :to="{name: 'user'}">Pengguna</router-link></li>
             <li class="c-header-nav-item px-3" v-if="$can('pengaturan.lihat')"><router-link class="c-header-nav-link" :to="{name: 'setting'}">Pengaturan</router-link></li>
         </ul>

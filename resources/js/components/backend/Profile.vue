@@ -11,12 +11,10 @@
                     </div>
                     <div class="card-footer">
                         <button @click="showUpdateImageModal" class="btn btn-primary">
-                            <i class="c-icon align-middle cil-image mr-1"></i>
-                            Ubah gambar
+                            <b>Ubah gambar</b>
                         </button>
                         <button @click="showUpdatePasswordModal" class="btn btn-danger">
-                            <i class="c-icon align-middle cil-lock-locked mr-1"></i>
-                            Ubah kata sandi
+                            <b>Ubah kata sandi</b>
                         </button>
                     </div>
                 </div>
@@ -63,8 +61,7 @@
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="c-icon cil-save align-middle mr-1"></i>
-                                    Ubah
+                                    <b>Ubah</b>
                                 </button>
                             </div>
                         </form>
@@ -98,13 +95,11 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                <i class="align-middle c-icon cil-x mr-1"></i>
-                                Batal
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <b>Batal</b>
                             </button>
                             <button :disabled="progressLoading" type="submit" class="btn btn-primary">
-                                <i class="align-middle c-icon cil-image mr-1"></i>
-                                Ubah
+                                <b>Ubah</b>
                             </button>
                         </div>
                     </form>
@@ -138,13 +133,11 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                <i class="align-middle c-icon cil-x mr-1"></i>
-                                Batal
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <b>Batal</b>
                             </button>
                             <button type="submit" class="btn btn-danger">
-                                <i class="align-middle c-icon cil-lock-locked mr-1"></i>
-                                Ubah
+                                <b>Ubah</b>
                             </button>
                         </div>
                     </form>

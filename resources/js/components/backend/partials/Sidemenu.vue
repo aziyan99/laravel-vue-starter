@@ -7,7 +7,7 @@
             <li class="c-sidebar-nav-item" v-if="$can('dashbor.lihat')">
                 <router-link class="c-sidebar-nav-link" :to="{name: 'dashboard'}">
                     <i class="c-sidebar-nav-icon c-icon cil-speedometer"></i>
-                    Dashbor
+                    Dashboard
                 </router-link>
             </li>
             <li class="c-sidebar-nav-title">Menu Utama</li>

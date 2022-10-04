@@ -9,14 +9,12 @@
                 <div class="text-right">
                     <button type="button" @click="showBulkDestroyUserModal" class="btn btn-danger"
                         v-if="$can('pengguna.hapus')" v-show="deleteUsers.length > 0">
-                        <i class="c-icon cil-trash align-middle mr-2"></i>Hapus yang dipilih
+                        <b>Hapus yang dipilih</b>
                     </button>
                     <button type="button" disabled class="btn btn-danger" v-if="$can('pengguna.hapus')" v-show="deleteUsers.length < 1">
-                        <i class="c-icon cil-trash align-middle mr-2"></i>Hapus yang dipilih
+                        <b>Hapus yang dipilih</b>
                     </button>
-                    <button class="btn btn-primary" @click="showCreateUserModal" v-if="$can('pengguna.tambah')">
-                        <i class="c-icon mr-2 cil-plus align-middle"></i>
-                        Tambah Pengguna
+                    <button class="btn btn-primary" @click="showCreateUserModal" v-if="$can('pengguna.tambah')"><b>Tambah Pengguna</b>
                     </button>
                 </div>
                 <div class="row mt-3">
@@ -68,17 +66,21 @@
                                 </td>
                                 <td>{{ user.created_at | formatDate }}</td>
                                 <td v-if="user.id !== loggedUserId">
-                                    <button @click="showEditUserModal(user)" class="btn btn-warning btn-sm" v-if="$can('pengguna.ubah')">
-                                        <i class="c-icon cil-pencil mr-1 align-middle"></i>
-                                        edit
+                                    <button @click="showEditUserModal(user)" class="btn btn-default btn-sm" v-if="$can('pengguna.ubah')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                                        </svg>
                                     </button>
-                                    <button @click="showDetailUserModal(user)" class="btn btn-info btn-sm" v-if="$can('pengguna.lihat')">
-                                        <i class="c-icon cil-file mr-1 align-middle"></i>
-                                        lihat
+                                    <button @click="showDetailUserModal(user)" class="btn btn-default btn-sm" v-if="$can('pengguna.lihat')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                        </svg>
                                     </button>
-                                    <button @click="showDestroyUserModal(user)" class="btn btn-danger btn-sm" v-if="$can('pengguna.hapus')">
-                                        <i class="c-icon cil-trash mr-1 align-middle"></i>
-                                        hapus
+                                    <button @click="showDestroyUserModal(user)" class="btn btn-default btn-sm" v-if="$can('pengguna.hapus')">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                        </svg>
                                     </button>
                                 </td>
                                 <td v-else>
@@ -150,13 +152,11 @@
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                    <i class="align-middle c-icon cil-x mr-1"></i>
-                                    Batal
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    <b>Batal</b>
                                 </button>
                                 <button type="submit" class="btn btn-primary">
-                                    <i class="align-middle c-icon cil-save mr-1"></i>
-                                    Simpan
+                                    <b>Simpan</b>
                                 </button>
                             </div>
                         </form>
@@ -180,17 +180,14 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                <i class="align-middle c-icon cil-x mr-1"></i>
-                                Batal
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <b>Batal</b>
                             </button>
                             <button type="button" class="btn btn-danger" @click="destroyUser" v-show="!bulkDeleteMode">
-                                <i class="align-middle c-icon cil-trash mr-1"></i>
-                                Hapus
+                                <b>Hapus</b>
                             </button>
                             <button type="button" class="btn btn-danger" @click="bulkDestroy" v-show="bulkDeleteMode">
-                                <i class="align-middle c-icon cil-trash mr-1"></i>
-                                Hapus
+                                <b>Hapus</b>
                             </button>
                         </div>
                     </div>
@@ -239,16 +236,14 @@
                                 </table>
                                 <div class="text-right">
                                     <button @click="resetPassword(detailUser.id)"  class="btn btn-danger btn-sm"  v-if="$can('pengguna.ubah')">
-                                        <i class="c-icon cil-lock-locked mr-1 align-middle"></i>
-                                        Reset kata sandi
+                                        <b>Reset kata sandi</b>
                                     </button>
                                 </div>
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                <i class="align-middle c-icon cil-x mr-1"></i>
-                                Tutup
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <b>Tutup</b>
                             </button>
                         </div>
                     </div>
